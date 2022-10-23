@@ -27,7 +27,8 @@ string[] FindLessThan(string[] arr, int n)
 
     for(int i = 0, j = 0; i < arr.Length; i++)
     {
-        if(arr[i].Length <= n) {
+        if(arr[i].Length <= n) 
+        {
             res[j] = arr[i];
             j++;
         }
